@@ -9,9 +9,9 @@ public class ElevatorMain {
 		Elevator ob=new Elevator();
 		Elevator obdup=new Elevator();
 		ob.openDoors();
-		System.out.print("\nPresent floor=");
+		System.out.print("\nPfloor=");
 		int a= 1;
-		System.out.print("\nDesired floor=");
+		System.out.print("\nDfloor=");
 		int b= 0;
 		ob.goToFloor(b);
 
