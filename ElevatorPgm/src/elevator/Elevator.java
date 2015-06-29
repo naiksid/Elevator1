@@ -7,17 +7,12 @@ public class Elevator {
 	boolean movement;
 	boolean doors;
 	
-	public void openDoors() {
-		// TODO Auto-generated method stub
-		doors=true;
-		System.out.println("\nDoors are open\n");
-		
-	}
+	
 
 	public void goToFloor(int b) {
 		// TODO Auto-generated method stub
 		headingfloor=b;
-		System.out.println("\nLift is heading to floor="+headingfloor);
+		System.out.println("Lift is heading to floor="+headingfloor);
 	}
 
 	public void goingUp() {
@@ -28,21 +23,28 @@ public class Elevator {
 	public void print(int a) {
 		// TODO Auto-generated method stub
 		currentfloor=a;
-		 System.out.print("\n@@Heading please wait@@\n");
+		 System.out.print("Heading please wait\n");
 		 if(headingfloor>currentfloor)
 		 {
-			 System.out.print("\nMovement up\n");
+			 System.out.print("Moving up\n");
 		 }
 		 else
 		 {
-			 System.out.print("\nMovement down\n");
+			 System.out.print("Moving down\n");
 		 }		
 	}
 
+	public void openDoors() {
+		// TODO Auto-generated method stub
+		doors=true;
+		System.out.println("Doors are open\n");
+		
+	}
+	
 	public void closeDoors() {
 		// TODO Auto-generated method stub
 		doors=false;
-		System.out.println("\nDoors are close\n");
+		System.out.println("Doors are close\n");
 	}
 
 	public void goingDown() {

@@ -9,10 +9,10 @@ public class ElevatorMain {
 		Elevator ob=new Elevator();
 		Elevator obdup=new Elevator();
 		ob.openDoors();
-		System.out.print("\nPresent floor=");
+		//System.out.print("Present floor=");
 		int a= 1;
-		System.out.print("\nDefault floor=");
-		int b= 0;
+		//System.out.print("Default floor=");
+		int b= 5;
 		ob.goToFloor(b);
 
 		obdup.goingUp();
@@ -20,5 +20,4 @@ public class ElevatorMain {
 		ob.print(a);
 		obdup.closeDoors();
 	}
-
 }
