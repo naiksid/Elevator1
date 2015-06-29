@@ -16,7 +16,7 @@ public class ElevatorMain {
 		ob.goToFloor(b);
 
 		obdup.goingUp();
-		obdup.goingUp();
+		obdup.goingDown();
 		ob.print(a);
 		obdup.closeDoors();
 	}
