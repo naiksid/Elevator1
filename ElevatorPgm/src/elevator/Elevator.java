@@ -6,8 +6,6 @@ public class Elevator {
 	int headingfloor;
 	boolean movement;
 	boolean doors;
-	
-	
 
 	public void goToFloor(int b) {
 		// TODO Auto-generated method stub

@@ -33,6 +33,5 @@ public class ElevatorMain {
 			obdup.closeDoors();
 			current_floor=going_to;
 		}
-	}
-		
+	}		
 }
